@@ -1,4 +1,3 @@
-import 'package:animated_chart/pages/charts_page.dart';
 import 'package:animated_chart/pages/loading_page.dart';
 import 'package:flutter/material.dart';
 
