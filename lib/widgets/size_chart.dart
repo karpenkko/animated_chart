@@ -13,7 +13,6 @@ class _ChartPageState extends State<SizeChart>
   late Animation<double> animationSize;
 
   double barHeight = 50.0;
-  final Color barColor = Colors.blue;
 
   @override
   void initState() {
@@ -67,7 +66,7 @@ class _ChartPageState extends State<SizeChart>
             width: 40.0,
             height: barHeight,
             decoration: BoxDecoration(
-              color: barColor,
+              color: Colors.blue,
               borderRadius: BorderRadius.circular(10),
             ),
           ),

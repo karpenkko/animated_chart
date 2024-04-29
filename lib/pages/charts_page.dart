@@ -59,6 +59,11 @@ class _ChartsPageState extends State<ChartsPage>
 
     controller.forward();
   }
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
